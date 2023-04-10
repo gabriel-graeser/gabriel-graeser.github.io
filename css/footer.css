@@ -1,0 +1,84 @@
+.footer {
+  background: #fff;
+}
+.footer-container {
+  max-width: 1200px;
+  padding: 120px 20px 60px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  position: relative;
+  align-items: center;
+}
+.footer-texto {
+  font-size: 1.5rem;
+  line-height: 1.33;
+}
+.footer-contato li {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.1;
+  margin-bottom: 30px;
+}
+.footer-contato a {
+  color: #000;
+}
+.footer-copy {
+  grid-column: 1/-1;
+  font-size: 1.2rem;
+  color: #000;
+}
+@media (max-width: 870px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .footer-texto {
+    font-size: 1.3rem;
+    line-height: 1.33;
+  }
+
+  .footer-contato li {
+    font-weight: bold;
+    font-size: 1.3rem;
+    line-height: 1.1;
+    margin-bottom: 30px;
+  }
+  .formacao .subtitulo {
+    color: #141414;
+  }
+  .formacao-extra span {
+    color: #000000;
+  }
+  .formacao-texto {
+    font-size: 1.25 rem;
+    margin-bottom: 40px;
+  }
+  .empresa-ano {
+    position: initial;
+    order: 1;
+    width: initial;
+    justify-content: left;
+  }
+}
+@media (max-width: 600px) {
+  .formacao-container {
+    margin: 0px 20px;
+  }
+  .formacao .subtitulo {
+    font-size: 1.8rem;
+  }
+  .formacao-texto {
+    font-size: 1.15rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .empresas {
+    grid-template-columns: 1fr;
+  }
+  .experiencia {
+    margin: 5px;
+  }
+}
